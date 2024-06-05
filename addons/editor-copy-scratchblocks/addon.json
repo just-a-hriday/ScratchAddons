@@ -18,10 +18,10 @@
       "default": false
     },
     {
-        "name": "Always use square dropdowns",
-        "id": "square-dropdowns",
-        "type": "boolean",
-        "default": true
+      "name": "Always use square dropdowns",
+      "id": "square-dropdowns",
+      "type": "boolean",
+      "default": true
     }
   ],
   "credits": [
