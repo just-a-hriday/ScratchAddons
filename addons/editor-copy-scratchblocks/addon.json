@@ -1,0 +1,33 @@
+{
+  "versionAdded": "1.39.0",
+  "name": "Copy scratchblocks code",
+  "description": "Adds an option to block context menus to copy the block's scratchblocks code to the clipboard.",
+  "tags": ["editor", "codeEditor"],
+  "permissions": ["clipboardWrite"],
+  "userscripts": [
+    {
+      "url": "userscript.js",
+      "matches": ["projects"]
+    }
+  ],
+  "settings": [
+    {
+      "name": "Preserve block colors",
+      "id": "preserve-colors",
+      "type": "boolean",
+      "default": false
+    },
+    {
+        "name": "Always use square dropdowns",
+        "id": "square-dropdowns",
+        "type": "boolean",
+        "default": true
+    }
+  ],
+  "credits": [
+    {
+      "name": "just-a-hriday",
+      "link": "https://scratch.mit.edu/users/just-a-hriday/"
+    }
+  ]
+}
